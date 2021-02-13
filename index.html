@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Favicon Image -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TailWind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <title>Talking Scissors</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="text-gray-700 body-font">
+        <div class="fixed container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center bg-black">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img src="logo.png" alt="logo" height="40px" width="40px">
+                <span class="logo ml-3 text-xl font-bold">Talking Scissors</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
+                <a href="#about" class="mr-5">About Us</a>
+                <a href="#service" class="mr-5">Services</a>
+                <a class="mr-5">Book</a>
+                <a class="mr-5">Locations</a>
+            </nav>
+            <button class="bg-transparent hover:bg-white text-white font-medium hover:text-black py-2 px-3 border border-white hover:border-transparent">Contact Us
+          </button>
+        </div>
+    </header>
+
+    <!-- Display Page -->
+    <section class="overflow-hidden text-gray-700 body-font display-page">
+        <div class="container pt-20 px-5 mx-auto lg:px-10">
+            <div class="flex flex-wrap py-8 md:flex-no-wrap">
+                <div class="w-full ">
+                    <video src="video1.mp4" loop autoplay muted style="height:450px;" class="object-cover object-center w-full rounded-lg lg:h-auto opacity-75"></video>
+                    <div class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Page -->
+    <section class="overflow-hidden text-gray-700 body-font product-page">
+        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="pl-24 w-full mx-auto text-left text-white text-6xl pb-5 about-head ">Our Products</h2>
+        <div class="container px-5 py-2 mx-auto lg:pt-16 lg:px-32 lg:pb-6">
+            <div class="flex flex-wrap -m-1 md:-m-2">
+                <div class="flex flex-wrap w-1/2">
+                    <div data-aos="fade-right" data-aos-duration="1000" class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="shampoo.jpg">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div data-aos="fade-left" data-aos-duration="1000" class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="cream.jpg">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Us Page -->
+    <div id="about" class="pt-10 about-vertical-line">
+        <section class="text-gray-600 body-font description-page">
+            <div class="container px-3 py-12 mx-auto">
+                <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="l:w-1/2 lg:w-3/4 w-full mx-auto text-left text-black text-6xl pb-5 about-head ">About Us</h2>
+                <div class="l:w-1/2 lg:w-3/4 w-full mx-auto text-left ">
+                    <p class="leading-relaxed text-lg tracking-wider leading-loose pt-6 text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim suspendisse in est ante. Amet venenatis urna cursus eget nunc scelerisque
+                        viverra. Auctor neque vitae tempus quam pellentesque nec nam. Lacus vestibulum sed arcu non odio euismod. Aliquam etiam erat velit.
+                    </p>
+                    <p class="leading-relaxed text-lg tracking-wider leading-loose pt-8 text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus pretium quam vulputate dignissim suspendisse in est ante. Amet venenatis urna cursus eget nunc scelerisque
+                        viverra. Auctor neque vitae tempus quam pellentesque nec nam. Lacus vestibulum sed arcu non odio euismod. Aliquam etiam erat velit.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Grid Page -->
+    <section class="overflow-hidden text-gray-700 body-font grid-page ">
+        <div class="container px-5 py-2 mx-auto lg:pt-10 lg:px-32 ">
+            <div class="flex flex-wrap -m-1 md:-m-2 ">
+                <div class="flex flex-wrap w-1/-2 ">
+                    <div class="w-full p-1 md:p-2 ">
+                        <video class="block object-cover object-center w-full h-96 opacity-50" src="video2.mp4" loop autoplay muted></video>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="overflow-hidden text-gray-700 body-font grid-page ">
+        <div class="container px-5 py-2 mx-auto lg:pt-2 lg:pb-10 lg:px-32 ">
+            <div class="flex flex-wrap -m-1 md:-m-2 ">
+                <div class="flex flex-wrap w-1/2 ">
+                    <div class="w-full p-1 md:p-2 ">
+                        <div class="grid-container">
+                            <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid2.jpg">
+                            <div class="grid-overlay">
+                                <img src="logo.png" alt="logo" class="grid-image">
+                                <!-- <div class="grid-text">Talking Scissors</div> -->
+                                <!-- <a href="" class="grid-link">Discover<i class="fas fa-long-arrow-alt-right"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full p-1 md:p-2 ">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid3.jpg">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2 ">
+                    <div class="w-full p-1 md:p-2 ">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid1.jpg">
+                    </div>
+                    <div class="w-full p-1 md:p-2 grid-4">
+                        <div class="grid-container">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full" src="grid4.jpg">
+                            <div class="grid-overlay">
+                                <img src="logo.png" alt="logo" class="grid-image">
+                                <!-- <div class="grid-text">Talking Scissors</div> -->
+                                <!-- <a href="" class="grid-link">Discover<i class="fas fa-long-arrow-alt-right"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full p-0.5 md:p-2 pt-0">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid5.jpg">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Services Page -->
+    <section class="overflow-hidden text-gray-700 body-font" id="service">
+        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="w-full mx-auto text-center text-black text-6xl pt-24 about-head ">Our Services</h2>
+        <div class="container px-5 py-2 mx-auto lg:pt-16 lg:pb-20 lg:px-32">
+            <div class="flex flex-wrap -m-1 md:-m-2">
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="service1.svg" />
+                        </div>
+                        <p class=" .leading-loose .tracking-wider md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
+                        </div>
+                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
+                        </div>
+                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
+                        </div>
+                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
+                        </div>
+                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
+                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
+                        <div class="flex mb-4">
+                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
+                        </div>
+                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <section class="text-gray-700 body-font">
+        <div class="container px-2 mx-auto pt-2 lg:px-4 pb-14">
+            <div class="flex flex-col w-full mb-12 text-center lg:text-center">
+                <p class="mx-auto text-base font-normal text-2xl leading-relaxed text-gray-700 lg:w-2/3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden text-gray-700 body-font">
+        <div class="container px-5 py-2 mx-auto lg:pt-0 lg:pb-20 lg:px-32">
+            <div class="flex flex-wrap -m-1 md:-m-2">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/800x800/F3F4F7/8693ac">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="w-full p-1 md:p-2">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/800x800/F3F4F7/8693ac">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class=" body-font">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                    <img src="logo.png" alt="">
+                    <span class="ml-3 text-xl text-white">Talking Scissors</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">First Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 All Rights Reserved —
+                    <a href="https://twitter.com/bhavesh1129" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@bhavesh</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

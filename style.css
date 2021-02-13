@@ -1,0 +1,80 @@
+nav a:active {
+    text-decoration: underline;
+}
+
+.display-page {
+    background: black;
+}
+
+.product-page {
+    background: black;
+}
+
+.about-vertical-line {
+    border-left: 12px solid rgb(54, 54, 54);
+}
+
+.grid-page {
+    background: black;
+}
+
+.grid-container {
+    position: relative;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0f0f0f;
+}
+
+.grid-image {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.grid-container:hover .grid-overlay {
+    opacity: 1;
+}
+
+
+/* .grid-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.grid-link {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+.service-images {
+    height: 15%;
+    width: 15%;
+}
+
+footer {
+    background: black;
+}
