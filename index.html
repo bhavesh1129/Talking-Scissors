@@ -30,28 +30,29 @@
     <!-- Header -->
     <header class="text-gray-700 body-font">
         <div class="fixed container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center bg-black">
-            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <a href="#home" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <img src="logo.png" alt="logo" height="40px" width="40px">
                 <span class="logo ml-3 text-xl font-bold">Talking Scissors</span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
                 <a href="#about" class="mr-5">About Us</a>
-                <a href="#service" class="mr-5">Services</a>
-                <a class="mr-5">Book</a>
-                <a class="mr-5">Locations</a>
+                <a href="#services" class="mr-5">Services</a>
+                <a href="#grid" class="mr-5">Gallery</a>
+                <a href="#book" class="mr-5">Book</a>
             </nav>
-            <button class="bg-transparent hover:bg-white text-white font-medium hover:text-black py-2 px-3 border border-white hover:border-transparent">Contact Us
+            <button class="bg-transparent hover:bg-white text-white font-medium hover:text-black py-2 px-3 border border-white hover:border-transparent"><a href="404Error.html">Contact Us</a>
           </button>
         </div>
     </header>
 
     <!-- Display Page -->
-    <section class="overflow-hidden text-gray-700 body-font display-page">
+    <section id="home" class="overflow-hidden text-gray-700 body-font display-page">
         <div class="container pt-20 px-5 mx-auto lg:px-10">
             <div class="flex flex-wrap py-8 md:flex-no-wrap">
                 <div class="w-full ">
-                    <video src="video1.mp4" loop autoplay muted style="height:450px;" class="object-cover object-center w-full rounded-lg lg:h-auto opacity-75"></video>
-                    <div class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center">
+                    <video src="Videos/video1.mp4" loop autoplay muted style="height:450px;" class="object-cover object-center w-full rounded-lg lg:h-auto opacity-75"></video>
+                    <div class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center display-head">
+                        <img src="logo.png" alt="logo"> TALKING SCISSORS
                     </div>
                 </div>
             </div>
@@ -60,17 +61,17 @@
 
     <!-- Product Page -->
     <section class="overflow-hidden text-gray-700 body-font product-page">
-        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="pl-24 w-full mx-auto text-left text-white text-6xl pb-5 about-head ">Our Products</h2>
-        <div class="container px-5 py-2 mx-auto lg:pt-16 lg:px-32 lg:pb-6">
+        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="px-3 l:w-1/2 lg:w-3/4 w-full mx-auto text-left text-white text-5xl about-head ">Our Products</h2>
+        <div class="container px-5 py-2 mx-auto lg:pt-14 lg:px-32 lg:pb-6">
             <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class="flex flex-wrap w-1/2">
+                <div class="flex flex-wrap w-1/2 md: w-1">
                     <div data-aos="fade-right" data-aos-duration="1000" class="w-full p-1 md:p-2">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="shampoo.jpg">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="Images/shampoo.jpg">
                     </div>
                 </div>
-                <div class="flex flex-wrap w-1/2">
+                <div class="flex flex-wrap w-1/2 md: w-1">
                     <div data-aos="fade-left" data-aos-duration="1000" class="w-full p-1 md:p-2">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="cream.jpg">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="Images/cream.jpg">
                     </div>
                 </div>
             </div>
@@ -94,12 +95,12 @@
     </div>
 
     <!-- Grid Page -->
-    <section class="overflow-hidden text-gray-700 body-font grid-page ">
+    <section id="grid" class="overflow-hidden text-gray-700 body-font grid-page ">
         <div class="container px-5 py-2 mx-auto lg:pt-10 lg:px-32 ">
             <div class="flex flex-wrap -m-1 md:-m-2 ">
                 <div class="flex flex-wrap w-1/-2 ">
                     <div class="w-full p-1 md:p-2 ">
-                        <video class="block object-cover object-center w-full h-96 opacity-50" src="video2.mp4" loop autoplay muted></video>
+                        <video class="block object-cover object-center w-full h-96 opacity-50" src="Videos/video2.mp4" loop autoplay muted></video>
                     </div>
                 </div>
             </div>
@@ -111,7 +112,7 @@
                 <div class="flex flex-wrap w-1/2 ">
                     <div class="w-full p-1 md:p-2 ">
                         <div class="grid-container">
-                            <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid2.jpg">
+                            <img alt="gallery " class="block object-cover object-center w-full h-full " src="Images/grid2.jpg">
                             <div class="grid-overlay">
                                 <img src="logo.png" alt="logo" class="grid-image">
                                 <!-- <div class="grid-text">Talking Scissors</div> -->
@@ -120,85 +121,106 @@
                         </div>
                     </div>
                     <div class="w-full p-1 md:p-2 ">
-                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid3.jpg">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="Images/grid3.jpg">
                     </div>
                 </div>
                 <div class="flex flex-wrap w-1/2 ">
                     <div class="w-full p-1 md:p-2 ">
-                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid1.jpg">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="Images/grid1.jpg">
                     </div>
                     <div class="w-full p-1 md:p-2 grid-4">
                         <div class="grid-container">
-                            <img alt="gallery" class="block object-cover object-center w-full h-full" src="grid4.jpg">
+                            <img alt="gallery" class="block object-cover object-center w-full h-full" src="Images/grid4.jpg">
                             <div class="grid-overlay">
                                 <img src="logo.png" alt="logo" class="grid-image">
                                 <!-- <div class="grid-text">Talking Scissors</div> -->
-                                <!-- <a href="" class="grid-link">Discover<i class="fas fa-long-arrow-alt-right"></i></a> -->
+                                <a href="" class="grid-link">Discover<i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="w-full p-0.5 md:p-2 pt-0">
-                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="grid5.jpg">
+                        <img alt="gallery " class="block object-cover object-center w-full h-full " src="Images/grid5.jpg">
                     </div>
                 </div>
             </div>
     </section>
 
     <!-- Services Page -->
-    <section class="overflow-hidden text-gray-700 body-font" id="service">
-        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="w-full mx-auto text-center text-black text-6xl pt-24 about-head ">Our Services</h2>
-        <div class="container px-5 py-2 mx-auto lg:pt-16 lg:pb-20 lg:px-32">
-            <div class="flex flex-wrap -m-1 md:-m-2">
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="service1.svg" />
-                        </div>
-                        <p class=" .leading-loose .tracking-wider md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <section id="services" class="text-gray-700 body-font">
+        <h2 data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="w-full mx-auto text-center text-black text-6xl pt-20 about-head ">Our Services</h2>
+        <div class="container px-8 pb-10 mx-auto pt-20 lg:px-4">
+            <div class="flex flex-wrap -m-4">
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full w-50 p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center  w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service1.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">HAIR STYLING</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
-                        </div>
-                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service2.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">EDGE UP</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
-                        </div>
-                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
-                        </div>
-                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
-                        </div>
-                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-                <div class="p-2 bg-gray-50 dark:bg-gray-900 flex items-center justify-center w-4/12 h-5/6">
-                    <div class="px-5 py-4 bg-white  shadow max-w-lg">
-                        <div class="flex mb-4">
-                            <img class="w-12 h-12 rounded-full" src="grid5.jpg" />
-                        </div>
-                        <p class="text-gray-800 dark:text-gray-100 leading-snug md:leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center  w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service3.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">HAIR CUT</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
 
             </div>
+        </div>
+    </section>
+    <section class="text-gray-700 body-font">
+        <div class="container px-8 pb-24 mx-15 lg:px-4">
+            <div class="flex flex-wrap -m-4">
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center  w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service4.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">BEARD TRIM</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center  w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service5.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">COLORING</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="p-5 mx-auto mb-6 lg:w-1/3 lg:mb-0">
+                    <div class="h-full p-4 text-left shadow-xl">
+                        <a class="flex flex-wrap items-center mt-6">
+                            <img alt="testimonial" class="inline-block object-cover object-center  w-8 h-8 mb-4 rounded-full bg-4gray-100" src="Images/service6.svg">
+                        </a>
+                        <span class="font-normal text-gray-900 title-font service-head">SCALP MASSAGE</span>
+                        <p class="text-base font-normal leading-relaxed text-gray-700 service-para pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <section class="text-gray-700 body-font">
@@ -209,24 +231,41 @@
         </div>
     </section>
 
-    <section class="overflow-hidden text-gray-700 body-font">
-        <div class="container px-5 py-2 mx-auto lg:pt-0 lg:pb-20 lg:px-32">
+    <!-- Price Section -->
+    <section class="overflow-hidden text-gray-700 body-font price-page">
+        <div class="container px-5 py-2 mx-auto lg:pt-20 lg:pb-20 lg:px-32">
             <div class="flex flex-wrap -m-1 md:-m-2">
                 <div class="flex flex-wrap w-1/2">
                     <div class="w-full p-1 md:p-2">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/800x800/F3F4F7/8693ac">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://source.unsplash.com/800x800/?hairs">
                     </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                     <div class="w-full p-1 md:p-2">
-                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://dummyimage.com/800x800/F3F4F7/8693ac">
+                        <img alt="gallery" class="block object-cover object-center w-full h-full" src="https://source.unsplash.com/800x800/?hairstyle">
                     </div>
                 </div>
             </div>
     </section>
 
+    <!-- Contact Form -->
+    <h2 id="book" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="zoom-in-right" class="w-full mx-auto text-left pl-5 text-black text-6xl pt-20 about-head sm\:text-3xl">Book an appointment</h2>
 
-
+    <form action="" class="form bg-white p-6 my-10 relative">
+        <h3 class="text-2xl text-gray-900 font-semibold">Let us call you!</h3>
+        <p class="text-gray-600"> To help you choose your property</p>
+        <div class="flex space-x-5 mt-3">
+            <input type="text" name="" id="" placeholder="Your Name" class="border p-2  w-1/2">
+            <input type="tel" name="" id="" placeholder="Your Number" class="border p-2 w-1/2">
+        </div>
+        <input type="email" name="" id="" placeholder="Your Email" class="border p-2 w-full mt-3">
+        <textarea name="" id="" cols="10" rows="3" placeholder="Any Message" class="border p-2 mt-3 w-full"></textarea>
+        <div class="flex items-baseline space-x-2 mt-2">
+            <input type="checkbox" name="" id="" class="inline-block">
+            <p class="text-gray-600 text-sm">I consent to having this website store my submitted information so they can respond to my inquiry.</p>
+        </div>
+        <input type="submit" value="Submit" class="w-full mt-6 bg-black hover:bg-white hover:text-black hover:focus:outline-black text-white font-semibold p-3">
+    </form>
 
     <!-- Footer -->
     <footer class=" body-font">
@@ -312,7 +351,7 @@
         <div class="bg-gray-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                 <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 All Rights Reserved —
-                    <a href="https://twitter.com/bhavesh1129" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@bhavesh</a>
+                    <a href="https://github.com/bhavesh1129" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@bhavesh</a>
                 </p>
                 <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a class="text-gray-500">

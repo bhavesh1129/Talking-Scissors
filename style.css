@@ -1,9 +1,21 @@
-nav a:active {
-    text-decoration: underline;
+nav a:hover {
+    filter: invert(0.7);
+    font-weight: 100;
 }
 
 .display-page {
     background: black;
+}
+
+@media (min-width: 1024px) {
+    .display-head {
+        position: absolute;
+        right: 3.7%;
+        bottom: 2%;
+        color: white;
+        font-weight: 700;
+        font-size: 50px;
+    }
 }
 
 .product-page {
@@ -73,6 +85,30 @@ nav a:active {
 .service-images {
     height: 15%;
     width: 15%;
+}
+
+.service-head {
+    letter-spacing: 5px;
+}
+
+.service-para {
+    line-height: 1.7em;
+    font-family: Italics;
+}
+
+.icon::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 23px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 12px solid #3182ce;
+    left: 100%;
+    top: 0;
+}
+
+.price-page {
+    background: black;
 }
 
 footer {
